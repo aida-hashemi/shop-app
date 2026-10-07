@@ -1,4 +1,6 @@
+import "./Cart.css";
+
 function Cart() {
-  return <h1>سبد خرید</h1>;
+  return <h1 className="cart-page">سبد خرید</h1>;
 }
 export default Cart;
