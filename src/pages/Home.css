@@ -1,0 +1,23 @@
+.product-list {
+  list-style: none;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.product-list li {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-bottom: 10px;
+}
+
+.product-list a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.product-list a:hover {
+  color: #4caf50;
+}

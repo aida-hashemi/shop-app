@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
+import "./Navbar.css";
+
 function Navbar() {
   return (
-    <nav>
+    <nav className="navbar">
       <Link to="/">خانه</Link>
-
       <Link to="/cart">سبد خرید</Link>
     </nav>
   );
 }
+
 export default Navbar;
