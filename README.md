@@ -23,3 +23,20 @@ https://shop-app-one-indol.vercel.app/
 - Deployed on Vercel
 
 ## Project Structure
+
+## Running Locally
+
+```bash
+git clone https://github.com/aida-hashemi/shop-app.git
+cd shop-app
+npm install
+npm run dev
+```
+
+## What I Learned
+
+- Setting up client-side routing with `react-router-dom`
+- Reading dynamic URL parameters with `useParams`
+- Structuring a multi-page React app with reusable components
+- Fixing SPA routing issues on deployment (Vercel rewrites)
+- Git workflow: feature branches, merging, and pushing to GitHub
